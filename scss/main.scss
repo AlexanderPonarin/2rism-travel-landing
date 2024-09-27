@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import 'reset';
+@import 'variables';
+@import 'fonts';
+@import 'mixins';
+@import 'core';
+
+@import 'blocks/intro.scss';
+@import 'blocks/popular-destinations.scss';
+@import 'blocks/hotels.scss';
+@import 'blocks/tips.scss';
+@import 'blocks/activities.scss';
+@import 'blocks/about.scss';
+@import 'blocks/footer.scss';
+
+
