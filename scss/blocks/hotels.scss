@@ -92,3 +92,39 @@
         content: url('/assets/icons/star-fill.svg')
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .hotels {
+        margin-top: 50px;
+    }
+
+    .hotels__list {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .hotels__title {
+        text-align: center;
+    }
+
+    .hotels__view-btn {
+        margin-right: 10px;
+        top: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .hotels__view-btn {
+        position: static;
+        width: 300px;
+        margin: 0 auto;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+    .hotels__wrap {
+        gap: 20px;
+    }
+    
+}

@@ -44,3 +44,18 @@
         }
     }
 }
+
+@media screen and (max-width: 1400px) {
+    .popular-destinations {
+        margin-top: 50px;
+    }
+
+    .popular-destinations__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .popular-destinations__title {
+        text-align: center;
+    }
+}

@@ -4,12 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/icons/logo-icon.svg">
     <title>2rism</title>
   </head>
   <body>
     <section class="intro">
       <div class="wrap">
         <header class="header">
+          <div class="burger-wrap">
+            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+            <label class="burger" for="burger-checkbox"></label>
+            <ul class="header__menu-list burger-menu">
+              <li class="header__menu-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#">Hotels</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#">Restaurants</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#">Tours</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#">Destinations</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#">Activities</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
           <div class="header__logo">
             <a href="/">
               <p>2rism</p>
@@ -89,10 +117,10 @@
                   <h5 class="search__title">1 guest</h5>
                 </div>
               </li>
+              <button class="search__menu-btn">
+                <img src="./assets/icons/search-icon.svg" alt="search">
+              </button>
             </ul>
-            <button class="search__menu-btn">
-              <img src="./assets/icons/search-icon.svg" alt="search">
-            </button>
           </div>
         </div>
         </div>
@@ -149,17 +177,14 @@
         </div>
       </div>
     </section>
-
-
-
     <section class="hotels">
       <div class="wrap">
         <div class="hotels__wrap">
+          <h2 class="hotels__title">Hotels and Restaurants</h2>
           <button class="hotels__view-btn">
             View all
             <img src="/assets/icons/arrow-small-icon.svg">
           </button>
-          <h2 class="hotels__title">Hotels and Restaurants</h2>
           <ul class="hotels__list">
             <li class="hotels__item">
               <img src="/assets/img/hotel-monserato.png" alt="hotel">
@@ -221,14 +246,13 @@
         </div>
       </div>
     </section>
-
     <section class="tips">
       <div class="wrap">
+        <h2 class="tips__title">Travel Tips and Advice</h2>
         <button class="hotels__view-btn">
           View all
           <img src="/assets/icons/arrow-small-icon.svg">
         </button>
-        <h2 class="tips__title">Travel Tips and Advice</h2>
         <ul class="tips__list">
           <li class="tips__item" >
             <div class="tips__card">
@@ -279,14 +303,13 @@
         </ul>
       </div>
     </section>
-
     <section class="activities">
       <div class="wrap">
+        <h2 class="activities__title">Activities</h2>
         <button class="hotels__view-btn">
           View all
           <img src="/assets/icons/arrow-small-icon.svg">
         </button>
-        <h2 class="activities__title">Activities</h2>
         <ul class="activities__list">
           <li class="activities__item">
             <img src="/assets/img/activities-sailing.png" alt="activitie">
@@ -315,7 +338,6 @@
         </ul>
       </div>
     </section>
-
     <section class="about">
       <div class="about__wrap">
         <div class="about__info">
@@ -329,7 +351,6 @@
         <img class="about__img" src="/assets/img/about-us-img.png" alt="about">
       </div>
     </section>
-
     <footer class="footer">
       <div class="wrap">
         <div class="footer__about">
@@ -429,9 +450,5 @@
         </div>
       </div>
     </footer>
-
   </body>
 </html>
-
-
-<label for="email">Your Email</label>

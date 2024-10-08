@@ -91,6 +91,55 @@
             line-height: 18px;
         }
     }
+}
 
+@media screen and (max-width: 1200px) {
+    .tips {
+        margin-top: 50px;
+    }
 
+    .tips__view-btn {
+        top: 10px;
+    }
+
+    .tips__title {
+        text-align: center;
+    }
+
+    .tips__list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 32px;
+    }
+
+    .tips__card {
+        justify-content: space-around;
+        gap: 32px;
+    }
+
+    .tips__info {
+        width: 450px
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    
+    .tips__card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .tips__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
 }

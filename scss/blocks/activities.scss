@@ -47,6 +47,20 @@
             color: #161414;
         }
     }
+}
 
+@media screen and (max-width: 1200px) {
+    .activities {
+        margin-top: 50px;
+    }
 
+    .activities__title {
+        text-align: center;
+    }
+
+    .activities__list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
 }
